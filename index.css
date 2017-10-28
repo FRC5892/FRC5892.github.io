@@ -1,6 +1,65 @@
 body {
-    background-color: #ff8e1c;
-    color: #ffffff;
-    font-family: "Comic Sans MS", Sans-Serif;
-    font-size: 24pt;
+	width: 65%;
+	margin: auto;
+	background-color: #fff6ed;
+}
+
+header {
+	margin: auto;
+	text-align: center;
+}
+
+header img {
+	max-height: 100px;
+}
+
+.media-links {
+	float: right;
+}
+
+.media-links img {
+	margin: 65px 5px 0 5px;
+}
+
+.navbar {
+	text-align: center;
+	color: #ff8e1c;
+}
+
+.navbar li {
+	display: inline-block;
+	width: 18%;
+}
+
+.imagereel {
+	margin: 50px auto 0 auto;
+	height: 400px;
+	background-color: blue;
+	color: white;
+}
+
+.thingbelowimagereelplzcomeupwithbettername {
+	display: inline-block;
+	margin: auto;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.summary {
+	width: 58%;
+	color: #605e5e;
+}
+
+.twitter {
+	width: 38%;
+}
+
+h1 {
+	font-family: impact, sans-serif;
+	color: #ff8e1c;
+}
+
+footer {
+	color: #ff8e1c;
+	font-size: 9pt;
 }
