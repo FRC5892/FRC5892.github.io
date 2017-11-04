@@ -5,8 +5,9 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>FRC 5892</title>
 		<link href="index.css" rel="stylesheet" type="text/css" />
+		<script src="imagereel.js"></script>
 	</head>
-	<body>
+	<body onload="initImageReel()">
 		<header>
 			<img src="images/gearbolt.png" style="float: left" />
 			<img src="images/site-banner.png" />
@@ -26,6 +27,7 @@
 		</ul>
 		
 		<div id="imagereel" style="background-image: url('images/image-reel/loading.png')"></div>
+		<div id="img-load-area"></div>
 		
 		<div>
 			<div class="thingbelowimagereelplzcomeupwithbettername summary">
@@ -42,8 +44,5 @@
 		<footer>
 			<p>© 2017 Energy HEROs. All rights reserved.</p>
 		</footer>
-		
-		<script src="imagereel.js"></script>
-		<script>advanceReel();</script>
 	</body>
 </html>

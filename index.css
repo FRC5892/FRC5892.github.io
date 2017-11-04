@@ -40,6 +40,10 @@ header img {
 	background-repeat: no-repeat;
 }
 
+#img-load-area {
+	display: none;
+}
+
 .thingbelowimagereelplzcomeupwithbettername {
 	display: inline-block;
 	margin: auto;
