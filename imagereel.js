@@ -14,11 +14,11 @@ function _loadImage(num) {
 		document.getElementById("img-load-area").innerHTML += "<img src=\"" + this.src + "\" />"
 		_loadImage(num+1);
 	};
-	dlImage.src = "images/image-reel/" + num + ".png";
+	dlImage.src = "/images/image-reel/" + num + ".png";
 }
 
 function _advanceReel() {
 	_curImg = (_curImg + 1) % NUM_IMAGES;
-	document.getElementById("imagereel").style.backgroundImage = "url(images/image-reel/" + _curImg + ".png)";
+	document.getElementById("imagereel").style.backgroundImage = "url('/images/image-reel/" + _curImg + ".png')";
 	setTimeout(_advanceReel, 4000);
 }
