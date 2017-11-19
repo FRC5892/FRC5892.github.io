@@ -4,6 +4,7 @@ let _curImg = -1;
 function initImageReel() {
 	_loadImage(0);
 	_advanceReel();
+	setInterval(_advanceReel, 4000);
 }
 
 // http://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript
@@ -20,5 +21,4 @@ function _loadImage(num) {
 function _advanceReel() {
 	_curImg = (_curImg + 1) % NUM_IMAGES;
 	document.getElementById("imagereel").style.backgroundImage = "url('/images/image-reel/" + _curImg + ".png')";
-	setTimeout(_advanceReel, 4000);
 }
