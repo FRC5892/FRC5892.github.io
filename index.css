@@ -28,6 +28,7 @@ header img {
 
 .navbar a {
 	color: inherit;
+	font-family: impact, sans-serif;
 	text-decoration: none;
 }
 
@@ -78,4 +79,9 @@ footer {
 .imgpage img { /* sponsors, image page, etc. wherever we need to show a bunch of images. */
 	display: inline-block;
 	margin: 10px;
+}
+
+.rs_links {
+	float: left;
+	font-size: 16pt;
 }
